@@ -1,0 +1,109 @@
+@media (max-width:1000px){
+    .business-desc h2 {
+        font-size: 60px;
+    }
+    .col-2 {
+        flex-basis: 46%;
+    }
+    .about-qsn p {
+        margin-bottom: 14px;
+        font-size: 15px;
+    }
+    .title-section h2 {
+        font-size: 35px;
+    }
+    .title-section p {
+        font-size: 15px;
+    }
+    input {
+        width: 400px;
+        font-size: 16px;
+    }
+    textarea {
+        width: 400px;
+        font-size: 16px;
+    }
+    iframe{
+        width: 400px;
+    }
+}
+
+@media (max-width:850px){
+    .col-2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .buttons button{
+        display: none;
+    }
+    .sub-btn {
+     
+        display: block;
+    }
+  
+    nav ul {
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: right;
+        overflow: hidden;
+        background-color: #0fc5b6;
+        color: #000;
+        transition: max-height .5s;
+    }
+    nav ul li{
+        display: block;
+        margin-bottom: 15px;
+       
+    }
+    nav ul li a{
+        color: #000;
+    }
+    .active{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
+@media (max-width:768px){
+    .col-3 {
+        flex-basis: 100%;
+    }
+    .sub-btn {
+        display: block;
+        position: relative;
+        left: 156px;
+    }
+    .col-right {
+        flex-basis: 100%;
+    }
+    .col-left {
+        flex-basis: 100%;
+    }
+    .col-left li {
+        top: -16px;
+    }
+}
+@media (max-width:420px){
+    .col-left li {
+        top: 0px;
+    }
+    iframe {
+        width: 340px;
+    }
+    input {
+        width: 345px;
+    }
+    textarea {
+        width: 345px;
+    }
+    .sub-btn {
+        left: 120px;
+    }
+    .col-left {
+        flex-basis: 100%;
+    }
+}
